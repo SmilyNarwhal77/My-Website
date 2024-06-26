@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title> DIFFICULTY LEVEL 1  (EASY) </title>
+		<script>
+			function correctanswer(num) {
+				var a = document.createElement('a'); 
+				var link = document.createTextNode(num);
+				a.appendChild(link);
+				a.title = num;
+				a.href = "file:///C:/Users/User/OneDrive/Documents/2.html"; 
+				document.body.appendChild(a);
+			}
+			function wronganswer(num) {
+				var a = document.createElement('a'); 
+				var link = document.createTextNode(num);
+				a.appendChild(link);
+				a.title = num;
+				a.href = "file:///C:/Users/User/OneDrive/Desktop/Wrong%20Answer.html"; 
+				document.body.appendChild(a);
+			}
+		</script>
+	</head>
+	<body style="background-color:powderblue;">
+	<input id="color">
+		"Enter a 6-digit Hex Code in the format 1a2b3c.">
+	<br>
+
+	<button type="submit">Submit Form</button>
+		<script>	
+			document.write("What is 1 + 1")
+			document.write(/n)
+			wronganswer(11)
+			document.write(/n)
+			correctanswer(2)
+			document.write(/n)
+			wronganswer(3)
+			document.write(/n)
+			document.write("What is 3 x 4?")
+			document.write(/n)
+			wronganswer(34)
+
+			wronganswer(7)
+			correctanswer(12)
+		</script>
+	</body>
+</html>
