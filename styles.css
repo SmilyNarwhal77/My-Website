@@ -1,3 +1,19 @@
 body {
 	background-color: #FDD8E6; 
+	text-align: center;
+	}
+header {
+	border: 8px dashed #dd6600;
+	background-color: #8181ff;
+	font-family: sans-serif;
+	}
+nav {
+	border-style: ridge;
+	background-color: #aaaaff;
+	font-family: "Comic Sans MS";
+	}
+h4 {
+	font-size: 16px;
+	font-family: "Comic Sans Ms";
+	text-align: left;
 	}
