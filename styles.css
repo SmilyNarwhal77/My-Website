@@ -19,4 +19,8 @@ h4 {
 	}
 loga {
 	text-align: left;
+	display: flex;
+	align-items: stretch;
+	height: 25vh;
+	border: 5px double black;
 }
