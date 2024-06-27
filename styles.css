@@ -25,3 +25,11 @@ h4 {
 	border: 5px double black;
 	width: 300px
 }
+footer {
+	text-align: right;
+	display: flex;
+	align-items: stretch;
+	height: 8vh;
+	border: 1px double blueviolet;
+	width: 50px
+}
